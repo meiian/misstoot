@@ -47,6 +47,17 @@
            color: #dd3b75;
     }
     
+    .reply-indicator {
+          background: #000000;
+        color: white;
+        border:solid  1px #303030;
+    }
+    
+    .reply-indicator__display-name,
+    .reply-indicator__content{
+            color: white;
+    }
+    
     .search__input {
             border-bottom :solid  1px #dd3b75;
             background: #000000;
@@ -62,8 +73,15 @@
     
     .button,
     .button.logo-button,
-    .dropdown-menu__item a:hover{
+    .dropdown-menu__item a:hover,
+    .compose-form .compose-form__warning{
         background-color: #dd3b75;
+    }
+    
+    .compose-form .compose-form__warning a {
+          color:black;     
+        text-decoration: none;
+        font-weight: bold;
     }
     
     .button:hover,
